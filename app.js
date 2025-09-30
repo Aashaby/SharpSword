@@ -6,7 +6,7 @@
     repoLink.textContent = '打开仓库';
   } else {
     repoLink.removeAttribute('href');
-    repoLink.textContent = 'https://github.com/Aashaby/SharpSword';
+    repoLink.textContent = '作者 Aashaby';
   }
 
   const detected = detectBrowser();
@@ -82,10 +82,11 @@
   function guessRepoUrl() {
     // Best-effort guess based on common Pages pattern: https://<user>.github.io/<repo>/
     // Replace these with your actual values if known.
-    const OVERRIDE = '';
+    const OVERRIDE = 'https://aashaby.github.io/SharpSword/';
     if (OVERRIDE) return OVERRIDE;
     return '';
   }
 })();
+
 
 
