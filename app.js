@@ -82,11 +82,12 @@
   function guessRepoUrl() {
     // Best-effort guess based on common Pages pattern: https://<user>.github.io/<repo>/
     // Replace these with your actual values if known.
-    const OVERRIDE = 'https://aashaby.github.io/SharpSword/';
+    const OVERRIDE = 'https://github.com/Aashaby/SharpSword/';
     if (OVERRIDE) return OVERRIDE;
     return '';
   }
 })();
+
 
 
 
